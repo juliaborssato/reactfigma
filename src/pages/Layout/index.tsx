@@ -10,7 +10,7 @@ export function Layout() {
       <S.Main>
         <Outlet />
       </S.Main>
-      <ComponentFooter />
+     
     </>
   )
 }
