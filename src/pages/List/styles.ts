@@ -8,5 +8,9 @@ export const Section = styled.section`
   justify-content: space-around;
   align-items: center;
   align-content: center;
-
+  @media (max-width: 600px) {
+    flex-direction: column;
+img{width:200px;}
+}
 `
+

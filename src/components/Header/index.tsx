@@ -10,12 +10,6 @@ export function Header() {
       <S.NavBar>
         <ul>
           <li>
-            <a href="#">Entrar</a>
-          </li>
-          <li>
-            <a href="#">Cadastre-se</a>
-          </li>
-          <li>
             <a href="/">Página Inicial</a>
           </li>
         </ul>

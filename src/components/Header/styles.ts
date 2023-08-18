@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { colors } from "../../styles/GlobalStyle"
+//import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
@@ -37,7 +37,7 @@ export const NavBar = styled.nav`
       }
     }
     li:hover {
-      background-color: ${colors.secondaryLight};
+      background-color: white;
     }
   }
 

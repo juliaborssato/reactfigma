@@ -9,14 +9,16 @@ export interface ifooter {
 export function Footer({children}:ifooter) {
   return (
     <S.Footer>
-      <a href="https://twitter.com/taylorswift13" target="_blank">
-        <img src={Twitter} alt="Twitter" />
-      </a>
-      <a href="https://www.instagram.com/taylorswift/" target="_blank">
-        <img src={Insta} alt="Instagram" />
-      </a>
-      <a href="https://open.spotify.com/intl-pt/artist/06HL4z0CvFAxyc27GXpf02" target="_blank">
-      <img src={Spotify} alt="Spotify" /></a>
+      <div>
+        <a href="https://twitter.com/taylorswift13" target="_blank">
+          <img src={Twitter} alt="Twitter" />
+        </a>
+        <a href="https://www.instagram.com/taylorswift/" target="_blank">
+          <img src={Insta} alt="Instagram" />
+        </a>
+        <a href="https://open.spotify.com/intl-pt/artist/06HL4z0CvFAxyc27GXpf02" target="_blank">
+        <img src={Spotify} alt="Spotify" /></a>
+      </div>
       {children}
       
     </S.Footer>
