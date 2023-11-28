@@ -1,10 +1,10 @@
 import {
   IAuthContextData, IAuthProvider,
   IResponseUser, IUser
-} from '../../interfaces/user.interface'
+} from '../interfaces/user.interface'
 import React, { createContext, useState, useCallback } from 'react'
-import api from '../../services/data/api'
-import { apiUser } from '../../services/data'
+import api from '../services/api'
+import { apiUser } from '../services/data'
 import { isAfter, parseISO } from 'date-fns'
 import { useNavigate } from 'react-router-dom'
 
@@ -49,7 +49,7 @@ const AuthProvider: React.FC<IAuthProvider> = ({ children }) => {
       }
     } else {
       return false
-    }../interfaces/user.interface";
+    }
   }, [])
 
   return (

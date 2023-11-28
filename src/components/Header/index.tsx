@@ -12,6 +12,12 @@ export function Header() {
           <li>
             <a href="/">Página Inicial</a>
           </li>
+          <li>
+            <a href="login">Login</a>
+          </li>
+          <li>
+            <a href="cadastrar">Cadastro</a>
+          </li>
         </ul>
       </S.NavBar>
     </S.Header>

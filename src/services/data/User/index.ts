@@ -1,5 +1,5 @@
 import { IResponseUser, IUser } from "../../../interfaces/user.interface";
-import api from "../api";
+import api from "../../api";
 
 class UserData {
   register(data: IUser) {
